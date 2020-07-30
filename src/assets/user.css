@@ -1,0 +1,200 @@
+.sou{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin: 5px 0px;
+    
+  }
+  .sou>*{
+    padding: 15px 0px;
+    border-top:1px solid #ebebeb;
+    color: inherit;
+    display: flex;
+  }
+  .sou>a>span:first-child{
+      flex-grow: 1;
+      margin-left: 2px;
+  }
+  .sou p{
+    border-bottom:1px solid #ebebeb ;
+    margin-left: 2px;
+  }
+  .up {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-left: solid 1px;
+    border-top: solid 1px;
+    transform: rotate(45deg);
+    margin-top: 3px;
+     margin-right:10px ;
+  }
+  .down {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    transform: rotate(45deg);
+    margin-bottom: 3px;
+    margin-right:10px ;
+  }
+  .winde {
+    width: 1070px;
+    margin: 0px auto;
+    height: 1500px;
+  }
+  .tou {
+    width: 100%;
+    border-radius: 3px;
+    background-color: #fff;
+    margin: 10px 0px;
+    box-shadow: rgb(26, 26, 26, 0.1) 0px 1px 3px;
+  }
+  .card {
+    height: 132px;
+    background-color: #999;
+  }
+  .carduser {
+    position: relative;
+    width: 100%;
+  }
+  .cardusercente {
+    margin: 0px 30px 24px;
+    display: flex;
+  }
+  .qm {
+    font-size: 18px;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .name {
+    font-size: 26px;
+  }
+  .cente {
+    padding-top: 16px;
+    padding-left: 32px;
+    width: 100%;
+    margin-left: 170px;
+  }
+  .cente > div {
+    margin: 20px 0px;
+    width: 100%;
+  }
+  .cente > div:last-child {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cente > div:last-child a {
+    font-size: 14px;
+  }
+  .cente > div:last-child a:first-child{
+    color: #999;
+  }
+  .cente > div:last-child a:last-child{
+    border: 1px #0084ff solid;
+    padding: 5px 10px;
+    border-radius:2px;
+    display:inline-block;
+  }
+  .jd {
+    font-size: 14px;
+  }
+  .tx {
+    border: #fff 4px solid;
+    border-radius: 8px;
+    position: absolute;
+    top: -60px;
+    left: 30px;
+  }
+  .tx img {
+    border-radius: 4px;
+  }
+  .fm {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .hy{
+    display:inline-block;
+    font-weight:600;
+    font-size: 15px;
+  }.hy+span{
+    display:inline-block;
+    margin-left: 30px;
+     font-size: 15px;
+  }
+  .dong{
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  .ti{
+    width: 735px;
+      box-shadow: rgb(26, 26, 26, 0.1) 0px 1px 3px;
+   
+    background-color: #fff;
+  }
+  .le{
+    width: 310px;
+    display: flex;
+    flex-direction: column  ;
+  
+  }
+  
+  .ti>div>a{
+  display:inline-block ;
+  color: #000;
+  font-size: 16px;
+  margin: 15px;
+  
+  }
+  .ti>div{
+    border-bottom: 1px solid #f0f2f7;
+  }
+  .nn{
+          color:gray;
+          font-size: 14px;
+  }
+  .zx{
+    display:flex;
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0px;
+      box-shadow: rgb(26, 26, 26, 0.1) 0px 1px 3px;
+  }
+  .xx{
+    font-size: 15px;
+    width: 100% ;
+    color: #999; 
+    line-height: 30px;
+    
+  }
+  .xx>span{
+    float: right;
+  }
+  .guanzu{
+    display: flex;
+    background-color: #fff;
+     box-shadow: rgb(26, 26, 26, 0.1) 0px 1px 3px;
+      margin: 5px 0px;
+     
+  }
+  .guanzu a{
+    display: inline-block;
+    height: 50px;
+    font-size:15px;
+    flex:1;
+    color: #8590a6;
+    text-align: center;
+    margin: 10px 0px;
+  }
+  .guanzu a:first-child{
+    border-right:0.2px solid  ;
+  }
+  .guanzu p{
+    font-weight: 600;
+    color: #000;
+  }
+  
